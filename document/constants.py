@@ -1,0 +1,12 @@
+GET = 'GET'
+POST = 'POST'
+PATCH = 'PATCH'
+PUT = 'PUT'
+DELETE = 'DELETE'
+OPTION = 'OPTION'
+HEAD = 'HEAD'
+
+METHODS = (
+    (GET, 'GET'), (POST, 'POST'), (PATCH, 'PATCH'), (PUT, 'PUT'),
+    (DELETE, 'DELETE'), (OPTION, 'OPTION'), (HEAD, 'HEAD')
+)
